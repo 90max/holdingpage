@@ -1,46 +1,93 @@
+
+$bookBlue: #065183;
+$bookRed: #bb323a;
+
 @font-face {
   font-family: timesRegular;
   src: url(/fonts/TypographyTimesRegular.ttf); }
 
+@font-face {
+	font-family: timesItalic;
+	src: url(/fonts/TypographyTimesItalic.ttf);
+}
+
+@font-face {
+	font-family: timesBold;
+	src: url(/fonts/TypographyTimesBold.ttf);
+}
+
+@font-face {
+	font-family: timesBoldItalic;
+	src: url(/fonts/TypographyTimesBoldItalic.ttf);
+}
+
+
 
 body{
+	background-color: #efe6ce;
 	height: 100%;
 	width: 100%;
 	div#words{
 		float: right;
 		width: 650px;
+		margin-top: 1.5em;
+		margin-right: 2em;
 			p#title{
 				font-family: timesRegular;
 				font-size: 2.3em; 
+
+				color: $bookRed;
 				margin-top: 0;
 				margin-bottom: 0;
+					span{
+						text-shadow: 2px 2px #ddd6b3;
+					}
+			}
+			p#description{
+				color: $bookRed;
+				font-size: 1.5em;
+				margin-top: 0.3em;
+				margin-bottom: 0;
+				font-family: timesItalic;
 			}
 			p.quote{
-				font-size: 10px;
+				font-size: 13px;
 				display: inline-block;
 				width: 45%;
+				color: $bookRed;
 					span{
 						font-weight: bold;
+						color: $bookBlue;
 					}
 			}
 			p#tonyR{
 				float: right;
-				margin-right: 4em;
+				margin-right: 3em;
 			}
+			/*p#haroldE{
+				float: right;
+				margin-right: 4em;
+			}*/
 			h3.promise{
 				margin-top: 0;
+				color: $bookRed;
 			}
 			h3#byAuthor{
-				border-bottom: 1px solid black;
-				padding-bottom: 2em;
+				border-bottom: 1px solid grey;
+				padding-bottom: 1.3em;
+				margin-top: 0.7em;
+				margin-bottom: 0.3em;
+				color: $bookBlue;
 			}
 			h2{
 				font-family: timesRegular;
 			}
 			ul{
+				margin-top: 4em;
 				padding: 0px;
 
 				li{
+					font-family: 'Open Sans';
 					display: inline-block;
 					margin-right: 2em;
 				}
@@ -53,6 +100,7 @@ body{
 				width: 350px;
 				box-shadow: 10px 10px 5px grey;
 				margin-left: 3em;
+				margin-top: 0.5em;
 				
 			}
 	}
