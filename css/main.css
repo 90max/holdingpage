@@ -76,7 +76,7 @@ body {
         border-bottom: 1px solid #065183; }
       body div.wrapper div#words p.quote {
         font-size: 13px;
-        font-family: 'Open Sans';
+        font-family: timesRegular;
         display: inline-block;
         width: 45%;
         text-align: justify; }
@@ -87,7 +87,7 @@ body {
         float: right;
         margin-right: 3em; }
       body div.wrapper div#words p#Twitter {
-        font-family: 'Open Sans';
+        font-family: timesRegular;
         float: right;
         text-align: justify;
         position: absolute;
