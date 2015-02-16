@@ -11,16 +11,19 @@
   font-family: timesBoldItalic;
   src: url(/fonts/TypographyTimesBoldItalic.ttf); }
 body {
-  /*background-color: $bookRed;*/
-  /*#f4ebe8*/
-  height: 100%;
-  margin-top: 0;
-  margin-bottom: 0; }
+  background-color: #cfe2dc;
+  width: 100%;
+  /*max-width: 1280px;*/
+  height: 100vh;
+  margin: 0 auto; }
   body div.wrapper {
-    max-width: 1280px;
+    height: 34%;
+    width: 100%;
+    background-color: #bb323a;
+    /*max-width: 1280px;
     height: 100vh;
-    margin: 0 auto;
-    background-color: #cfe2dc;
+    margin: 0 auto;*/
+    /*background-color: $bookRed;*/
     /*margin-left: 20px;
     margin-right: 20px;*/ }
     body div.wrapper div#words {
@@ -28,7 +31,7 @@ body {
       padding: 15px;
       float: right;
       width: 50%;
-      margin-top: 1.5em;
+      margin-top: 3em;
       margin-right: 2.5em;
       border-radius: 2%;
       /*p#haroldE{
@@ -97,7 +100,7 @@ body {
       body div.wrapper div#words div.retailer {
         position: absolute;
         display: inline-block;
-        margin-top: 16em;
+        margin-top: 15em;
         margin-left: -12em;
         width: 60px;
         height: 60px; }
@@ -118,7 +121,7 @@ body {
       body div.wrapper div#words div.retailer2 {
         position: absolute;
         display: inline-block;
-        margin-top: 16.5em;
+        margin-top: 15.5em;
         /*margin-left: -5em;*/
         width: 60px;
         height: 60px; }
@@ -138,7 +141,7 @@ body {
       width: 33%;
       box-shadow: 10px 10px 5px grey;
       margin-left: 2.5em;
-      margin-top: 1.2em; }
+      margin-top: 2.5em; }
   @media screen and (max-width: 1350px) {
     body div.wrapper {
       margin-left: 0;
