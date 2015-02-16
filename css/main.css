@@ -87,7 +87,7 @@ body {
         float: right;
         margin-right: 3em; }
       body div.wrapper div#words p#Twitter {
-        font-family: timesRegular;
+        font-family: 'Open Sans';
         float: right;
         text-align: justify;
         position: absolute;
