@@ -35,6 +35,7 @@ body {
       margin-top: 2.43em;
       margin-right: 3.2em;
       border-radius: 2%;
+      box-shadow: 5px 5px 10px -3px black;
       /*p#haroldE{
       	float: right;
       	margin-right: 4em;
@@ -57,6 +58,7 @@ body {
       
       			}*/ }
       body div.wrapper div#words p#title {
+        color: #464952;
         text-align: center;
         font-family: timesRegular;
         text-transform: uppercase;
