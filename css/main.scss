@@ -43,7 +43,7 @@ div.wrapper{
 		background-color: #f6f1d9;
 		padding: 15px;
 		float: right;
-		width: 750px;
+		width: 60%;
 		margin-top: 1.5em;
 		margin-right: 2.5em;
 		border-radius: 2%;
@@ -182,7 +182,7 @@ div.wrapper{
 
 			img{
 				height: 38.8em;
-				width: 400px;
+				width: 30%;
 				box-shadow: 10px 10px 5px grey;
 				margin-left: 2.5em;
 				margin-top: 1.2em;
@@ -190,6 +190,14 @@ div.wrapper{
 			}
 	}
 
-}	
+}
 
+@media screen and (max-width: 1350px) {
+
+div.wrapper{
+	margin-left: 0;
+	margin-right: 0;
+}
+
+}
 }
