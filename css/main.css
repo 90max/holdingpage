@@ -57,14 +57,16 @@ body {
       
       			}*/ }
       body div.wrapper div#words p#title {
+        text-align: center;
         font-family: timesRegular;
         color: #065183;
+        text-transform: uppercase;
         font-size: 2.2em;
         font-weight: 600;
         margin-top: 0;
         margin-bottom: 0; }
       body div.wrapper div#words p#description {
-        color: #065183;
+        text-align: center;
         font-size: 1.2em;
         margin-top: 0.6em;
         margin-bottom: 0;

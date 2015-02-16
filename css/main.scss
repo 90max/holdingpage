@@ -59,8 +59,10 @@ div.wrapper{
 		margin-right: 3.2em;
 		border-radius: 2%;
 			p#title{
+				text-align: center;
 				font-family: timesRegular;
 				color: $bookBlue;
+				text-transform: uppercase;
 				font-size: 2.2em; 
 				font-weight: 600;
 				margin-top: 0;
@@ -68,7 +70,7 @@ div.wrapper{
 					
 			}
 			p#description{
-				color: $bookBlue;
+				text-align: center;
 				font-size: 1.2em;
 				margin-top: 0.6em;
 				margin-bottom: 0;
