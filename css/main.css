@@ -68,8 +68,9 @@ body {
         color: black;
         text-align: center;
         font-size: 1.05em;
-        margin-bottom: 0;
-        font-family: timesRegular; }
+        font-family: timesRegular;
+        margin-bottom: 1.6em;
+        border-bottom: 1px solid #065183; }
       body div.wrapper div#words p.quote {
         font-size: 13px;
         font-family: 'Open Sans';
@@ -87,12 +88,12 @@ body {
         float: right;
         text-align: justify;
         position: absolute;
-        margin-top: 11em;
+        margin-top: 12em;
         width: 22%;
         margin-left: 2.1em; }
       body div.wrapper div#words h3.promise {
         margin-top: 0;
-        font-family: 'Open Sans';
+        font-family: timesRegular;
         margin-bottom: 0.5em;
         color: #065183; }
       body div.wrapper div#words h3#byAuthor {
@@ -139,7 +140,7 @@ body {
       body div.wrapper div#words div.basket {
         position: absolute; }
         body div.wrapper div#words div.basket img {
-          border-right: 1px solid #065183;
+          border-right: 1px solid #bb323a;
           padding-right: 13px;
           margin-top: 1.7em;
           margin-left: -2em;

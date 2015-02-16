@@ -72,8 +72,9 @@ div.wrapper{
 				color: black;
 				text-align: center;
 				font-size: 1.05em;
-				margin-bottom: 0;
 				font-family: timesRegular;
+				margin-bottom: 1.6em;
+				border-bottom: 1px solid $bookBlue; 
 			}
 			p.quote{
 				font-size: 13px;
@@ -96,7 +97,7 @@ div.wrapper{
 				float: right;
 				text-align: justify;
 				position: absolute;
-				margin-top: 11em;
+				margin-top: 12em;
 				width: 22%;
 				margin-left: 2.1em;
 			}
@@ -106,7 +107,7 @@ div.wrapper{
 			}*/
 			h3.promise{
 				margin-top: 0;
-				font-family: 'Open Sans';
+				font-family: timesRegular;
 				margin-bottom: 0.5em;
 				color: $bookBlue;
 			}
@@ -184,7 +185,7 @@ div.wrapper{
 			div.basket{
 				position: absolute;
 					img{
-						border-right: 1px solid $bookBlue;
+						border-right: 1px solid $bookRed;
 						padding-right: 13px;
 						margin-top: 1.7em;
 						margin-left: -2em;
