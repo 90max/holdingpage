@@ -11,22 +11,23 @@
   font-family: timesBoldItalic;
   src: url(/fonts/TypographyTimesBoldItalic.ttf); }
 body {
-  background-color: #bb323a;
+  /*background-color: $bookRed;*/
   /*#f4ebe8*/
   height: 100%;
-  max-width: 1280px;
-  margin: 0; }
+  margin-top: 0;
+  margin-bottom: 0; }
   body div.wrapper {
-    width: 100%;
+    max-width: 1280px;
     height: 100vh;
+    margin: 0 auto;
     background-color: #cfe2dc;
-    margin-left: 20px;
-    margin-right: 20px; }
+    /*margin-left: 20px;
+    margin-right: 20px;*/ }
     body div.wrapper div#words {
       background-color: #f6f1d9;
       padding: 15px;
       float: right;
-      width: 60%;
+      width: 50%;
       margin-top: 1.5em;
       margin-right: 2.5em;
       border-radius: 2%;
@@ -97,7 +98,7 @@ body {
         position: absolute;
         display: inline-block;
         margin-top: 16em;
-        margin-left: -15em;
+        margin-left: -12em;
         width: 60px;
         height: 60px; }
         body div.wrapper div#words div.retailer img {
@@ -118,7 +119,7 @@ body {
         position: absolute;
         display: inline-block;
         margin-top: 16.5em;
-        margin-left: -5em;
+        /*margin-left: -5em;*/
         width: 60px;
         height: 60px; }
         body div.wrapper div#words div.retailer2 img {
@@ -129,12 +130,12 @@ body {
         body div.wrapper div#words div.basket img {
           border-right: 1px solid grey;
           padding-right: 20px;
-          margin-top: 4em;
+          margin-top: 2em;
           height: 50px;
           width: 50px; }
     body div.wrapper div#bookcover img {
       height: 38.8em;
-      width: 30%;
+      width: 33%;
       box-shadow: 10px 10px 5px grey;
       margin-left: 2.5em;
       margin-top: 1.2em; }
