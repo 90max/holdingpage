@@ -69,7 +69,7 @@ body {
         text-align: center;
         font-size: 1.05em;
         font-family: timesRegular;
-        margin-bottom: 1.6em;
+        margin-bottom: 0.7em;
         border-bottom: 1px solid #065183; }
       body div.wrapper div#words p.quote {
         font-size: 13px;
@@ -88,7 +88,7 @@ body {
         float: right;
         text-align: justify;
         position: absolute;
-        margin-top: 12em;
+        margin-top: 13em;
         width: 22%;
         margin-left: 2.1em; }
       body div.wrapper div#words h3.promise {
@@ -109,7 +109,7 @@ body {
       body div.wrapper div#words div.retailer {
         position: absolute;
         display: inline-block;
-        margin-top: 17em;
+        margin-top: 17.3em;
         margin-left: -3em;
         width: 60px;
         height: 60px; }
@@ -130,7 +130,7 @@ body {
       body div.wrapper div#words div.retailer2 {
         position: absolute;
         display: inline-block;
-        margin-top: 17.5em;
+        margin-top: 17.8em;
         margin-left: 8em;
         width: 60px;
         height: 60px; }
@@ -140,9 +140,9 @@ body {
       body div.wrapper div#words div.basket {
         position: absolute; }
         body div.wrapper div#words div.basket img {
-          border-right: 1px solid #bb323a;
+          border-right: 1px solid grey;
           padding-right: 13px;
-          margin-top: 1.7em;
+          margin-top: 2em;
           margin-left: -2em;
           height: 100px;
           width: 200px; }
