@@ -60,6 +60,7 @@ div.wrapper{
 		border-radius: 2%;
 			p#title{
 				font-family: timesRegular;
+				color: $bookBlue;
 				font-size: 2.2em; 
 				font-weight: 600;
 				margin-top: 0;
@@ -67,6 +68,7 @@ div.wrapper{
 					
 			}
 			p#description{
+				color: $bookBlue;
 				font-size: 1.2em;
 				margin-top: 0.6em;
 				margin-bottom: 0;
@@ -104,6 +106,7 @@ div.wrapper{
 			h3.promise{
 				margin-top: 0;
 				font-family: 'Open Sans';
+				margin-bottom: 0.5em;
 			}
 			h3#byAuthor{
 				border-bottom: 1px solid $bookBlue;

@@ -58,11 +58,13 @@ body {
       			}*/ }
       body div.wrapper div#words p#title {
         font-family: timesRegular;
+        color: #065183;
         font-size: 2.2em;
         font-weight: 600;
         margin-top: 0;
         margin-bottom: 0; }
       body div.wrapper div#words p#description {
+        color: #065183;
         font-size: 1.2em;
         margin-top: 0.6em;
         margin-bottom: 0;
@@ -89,7 +91,8 @@ body {
         margin-left: 2.1em; }
       body div.wrapper div#words h3.promise {
         margin-top: 0;
-        font-family: 'Open Sans'; }
+        font-family: 'Open Sans';
+        margin-bottom: 0.5em; }
       body div.wrapper div#words h3#byAuthor {
         border-bottom: 1px solid #065183;
         padding-bottom: 1.3em;
