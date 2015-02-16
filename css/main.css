@@ -17,7 +17,7 @@ body {
   height: 100vh;
   margin: 0 auto; }
   body div.wrapper {
-    height: 34%;
+    height: 29%;
     width: 100%;
     background-color: #bb323a;
     /*max-width: 1280px;
@@ -100,7 +100,7 @@ body {
       body div.wrapper div#words div.retailer {
         position: absolute;
         display: inline-block;
-        margin-top: 15em;
+        margin-top: 17em;
         margin-left: -12em;
         width: 60px;
         height: 60px; }
@@ -121,7 +121,7 @@ body {
       body div.wrapper div#words div.retailer2 {
         position: absolute;
         display: inline-block;
-        margin-top: 15.5em;
+        margin-top: 17.5em;
         /*margin-left: -5em;*/
         width: 60px;
         height: 60px; }
@@ -133,7 +133,7 @@ body {
         body div.wrapper div#words div.basket img {
           border-right: 1px solid grey;
           padding-right: 20px;
-          margin-top: 2em;
+          margin-top: 3em;
           height: 50px;
           width: 50px; }
     body div.wrapper div#bookcover img {
