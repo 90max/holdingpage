@@ -27,16 +27,16 @@ body{
 	
 	background-color: $bookRed; /*#f4ebe8*/
 	height: 100%;
-	width: 100%;
+	max-width: 1280px ;
 	margin: 0;
 
       
 div.wrapper{
-	max-width: 1300px;
+	width: 100%;
 	height: 100vh;
 	background-color: #cfe2dc;
-	margin-left: 2.5%;
-	margin-right: 2.5%;
+	margin-left: 20px;
+	margin-right: 20px;
 	
 		
 	div#words{
