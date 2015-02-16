@@ -32,7 +32,7 @@ body {
       padding: 15px;
       float: right;
       width: 50%;
-      margin-top: 3em;
+      margin-top: 2.43em;
       margin-right: 3.2em;
       border-radius: 2%;
       /*p#haroldE{
@@ -76,7 +76,6 @@ body {
         font-family: 'Open Sans';
         display: inline-block;
         width: 45%;
-        color: #bb323a;
         text-align: justify; }
         body div.wrapper div#words p.quote span {
           font-weight: bold;
@@ -84,9 +83,16 @@ body {
       body div.wrapper div#words p#tonyR {
         float: right;
         margin-right: 3em; }
+      body div.wrapper div#words p#Twitter {
+        font-family: 'Open Sans';
+        float: right;
+        text-align: justify;
+        position: absolute;
+        margin-top: 11em;
+        width: 22%;
+        margin-left: 2.3em; }
       body div.wrapper div#words h3.promise {
         margin-top: 0;
-        color: #bb323a;
         font-family: 'Open Sans'; }
       body div.wrapper div#words h3#byAuthor {
         border-bottom: 1px solid #065183;

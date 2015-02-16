@@ -55,7 +55,7 @@ div.wrapper{
 		padding: 15px;
 		float: right;
 		width: 50%;
-		margin-top: 3em;
+		margin-top: 2.43em;
 		margin-right: 3.2em;
 		border-radius: 2%;
 			p#title{
@@ -81,7 +81,6 @@ div.wrapper{
 				font-family: 'Open Sans';
 				display: inline-block;
 				width: 45%;
-				color: $bookRed;
 				text-align: justify;
 					span{
 						font-weight: bold;
@@ -92,13 +91,22 @@ div.wrapper{
 				float: right;
 				margin-right: 3em;
 			}
+
+			p#Twitter{
+				font-family: 'Open Sans';
+				float: right;
+				text-align: justify;
+				position: absolute;
+				margin-top: 11em;
+				width: 22%;
+				margin-left: 2.3em;
+			}
 			/*p#haroldE{
 				float: right;
 				margin-right: 4em;
 			}*/
 			h3.promise{
 				margin-top: 0;
-				color: $bookRed;
 				font-family: 'Open Sans';
 			}
 			h3#byAuthor{
