@@ -29,9 +29,9 @@ body {
     margin-right: 20px;*/ }
     body div.wrapper div#words {
       background-color: #f6f1d9;
-      padding: 15px;
+      padding: 25px;
       float: right;
-      width: 50%;
+      width: 51%;
       margin-top: 2.43em;
       margin-right: 3.2em;
       border-radius: 2%;
@@ -57,17 +57,13 @@ body {
       
       			}*/ }
       body div.wrapper div#words p#title {
-        text-align: center;
         font-family: timesRegular;
-        font-size: 2.3em;
+        font-size: 2.2em;
         font-weight: 600;
-        color: #bb323a;
         margin-top: 0;
         margin-bottom: 0; }
       body div.wrapper div#words p#description {
-        text-align: center;
-        color: #bb323a;
-        font-size: 1.5em;
+        font-size: 1.2em;
         margin-top: 0.6em;
         margin-bottom: 0;
         font-family: timesRegular; }
@@ -90,7 +86,7 @@ body {
         position: absolute;
         margin-top: 11em;
         width: 22%;
-        margin-left: 2.3em; }
+        margin-left: 2.1em; }
       body div.wrapper div#words h3.promise {
         margin-top: 0;
         font-family: 'Open Sans'; }
@@ -101,7 +97,7 @@ body {
         margin-bottom: 0.3em;
         font-family: timesRegular;
         color: #065183;
-        text-align: center; }
+        font-size: 1em; }
       body div.wrapper div#words h2 {
         font-family: timesRegular; }
       body div.wrapper div#words div.retailer {
