@@ -32,7 +32,7 @@ body {
       float: right;
       width: 50%;
       margin-top: 3em;
-      margin-right: 2.5em;
+      margin-right: 3.2em;
       border-radius: 2%;
       /*p#haroldE{
       	float: right;
@@ -140,7 +140,7 @@ body {
       height: 38.8em;
       width: 33%;
       box-shadow: 10px 10px 5px grey;
-      margin-left: 2.5em;
+      margin-left: 3.2em;
       margin-top: 2.5em; }
   @media screen and (max-width: 1350px) {
     body div.wrapper {
