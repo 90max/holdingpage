@@ -59,16 +59,15 @@ body {
       body div.wrapper div#words p#title {
         text-align: center;
         font-family: timesRegular;
-        color: #065183;
         text-transform: uppercase;
         font-size: 2.2em;
         font-weight: 600;
         margin-top: 0;
         margin-bottom: 0; }
       body div.wrapper div#words p#description {
+        color: black;
         text-align: center;
-        font-size: 1.2em;
-        margin-top: 0.6em;
+        font-size: 1.05em;
         margin-bottom: 0;
         font-family: timesRegular; }
       body div.wrapper div#words p.quote {
@@ -94,7 +93,8 @@ body {
       body div.wrapper div#words h3.promise {
         margin-top: 0;
         font-family: 'Open Sans';
-        margin-bottom: 0.5em; }
+        margin-bottom: 0.5em;
+        color: #065183; }
       body div.wrapper div#words h3#byAuthor {
         border-bottom: 1px solid #065183;
         padding-bottom: 1.3em;
@@ -139,7 +139,7 @@ body {
       body div.wrapper div#words div.basket {
         position: absolute; }
         body div.wrapper div#words div.basket img {
-          border-right: 1px solid grey;
+          border-right: 1px solid #065183;
           padding-right: 13px;
           margin-top: 1.7em;
           margin-left: -2em;
