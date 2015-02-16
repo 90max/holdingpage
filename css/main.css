@@ -36,10 +36,6 @@ body {
       margin-right: 3.2em;
       border-radius: 2%;
       box-shadow: 5px 5px 10px -3px black;
-      /*p#haroldE{
-      	float: right;
-      	margin-right: 4em;
-      }*/
       			/*ul{
       				margin-top: 4em;
       				padding: 0px;
@@ -85,7 +81,7 @@ body {
           color: #065183; }
       body div.wrapper div#words p#tonyR {
         float: right;
-        margin-right: 3em; }
+        margin-right: 2em; }
       body div.wrapper div#words p#Twitter {
         font-family: 'Open Sans';
         float: right;
@@ -94,6 +90,8 @@ body {
         margin-top: 13.5em;
         width: 22%;
         margin-left: 2.1em; }
+      body div.wrapper div#words p#haroldE {
+        margin-left: 1em; }
       body div.wrapper div#words h3.promise {
         margin-top: 0;
         text-align: justify;
