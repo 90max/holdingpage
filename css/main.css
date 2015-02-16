@@ -1,6 +1,6 @@
 @font-face {
   font-family: timesRegular;
-  src: url(/fonts/TypographyTimesRegular.ttf); }
+  src: url(/holdingpage//fonts/TypographyTimesRegular.ttf); }
 @font-face {
   font-family: timesItalic;
   src: url(/fonts/TypographyTimesItalic.ttf); }
@@ -135,6 +135,7 @@ body {
           border-right: 1px solid grey;
           padding-right: 13px;
           margin-top: 1.7em;
+          margin-left: -2em;
           height: 100px;
           width: 200px; }
     body div.wrapper div#bookcover img {

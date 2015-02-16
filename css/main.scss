@@ -4,7 +4,7 @@ $bookRed: #bb323a;
 
 @font-face {
   font-family: timesRegular;
-  src: url(/fonts/TypographyTimesRegular.ttf); }
+  src: url(/holdingpage//fonts/TypographyTimesRegular.ttf); }
 
 @font-face {
 	font-family: timesItalic;
@@ -178,6 +178,7 @@ div.wrapper{
 						border-right: 1px solid grey;
 						padding-right: 13px;
 						margin-top: 1.7em;
+						margin-left: -2em;
 						height: 100px;
 						width: 200px;
 					}
