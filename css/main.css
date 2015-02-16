@@ -76,7 +76,7 @@ body {
         border-bottom: 1px solid #065183; }
       body div.wrapper div#words p.quote {
         font-size: 13px;
-        font-family: timesRegular;
+        font-family: 'Open Sans';
         display: inline-block;
         width: 45%;
         text-align: justify; }
