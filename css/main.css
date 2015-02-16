@@ -11,95 +11,132 @@
   font-family: timesBoldItalic;
   src: url(/fonts/TypographyTimesBoldItalic.ttf); }
 body {
-  background-color: #cfe2dc;
+  background-color: #bb323a;
   /*#f4ebe8*/
   height: 100%;
-  width: 100%; }
-  body div#words {
-    background-color: #f6f1d9;
-    border: 1px solid #bb323a;
-    padding: 15px;
-    float: right;
-    width: 750px;
-    margin-top: 1.5em;
-    margin-right: 3em;
-    /*p#haroldE{
-    	float: right;
-    	margin-right: 4em;
-    }*/
-    			/*ul{
-    				margin-top: 4em;
-    				padding: 0px;
-    
-    				li{
-    					font-family: 'Open Sans';
-    					display: inline-block;
-    					margin-right: 2em;
-    						div.retailer{
-    							width: 15px;
-    							height: 15px;
-    							border-radius: 100%;
-    							border-radius: 1px solid black;
-    						}
-    				}
-    
-    			}*/ }
-    body div#words p#title {
-      font-family: timesRegular;
-      font-size: 2.3em;
-      color: #bb323a;
-      margin-top: 0;
-      margin-bottom: 0; }
-      body div#words p#title span {
-        font-size: 1.13em;
-        text-shadow: 2px 2px #ddd6b3; }
-    body div#words p#description {
-      color: #bb323a;
-      font-size: 1.5em;
-      margin-top: 0.6em;
-      margin-bottom: 0;
-      font-family: timesItalic; }
-    body div#words p.quote {
-      font-size: 13px;
-      font-family: 'Open Sans';
-      display: inline-block;
-      width: 45%;
-      color: #bb323a;
-      text-align: justify; }
-      body div#words p.quote span {
-        font-weight: bold;
-        color: #065183; }
-    body div#words p#tonyR {
+  width: 100%;
+  margin: 0; }
+  body div.wrapper {
+    max-width: 1300px;
+    height: 100vh;
+    background-color: #cfe2dc;
+    margin-left: 2.5%;
+    margin-right: 2.5%; }
+    body div.wrapper div#words {
+      background-color: #f6f1d9;
+      padding: 15px;
       float: right;
-      margin-right: 3em; }
-    body div#words h3.promise {
-      margin-top: 0;
-      color: #bb323a;
-      font-family: 'Open Sans'; }
-    body div#words h3#byAuthor {
-      border-bottom: 1px solid grey;
-      padding-bottom: 1.3em;
+      width: 750px;
       margin-top: 1.5em;
-      margin-bottom: 0.3em;
-      font-family: timesRegular;
-      color: #065183; }
-    body div#words h2 {
-      font-family: timesRegular; }
-    body div#words div.retailer {
-      position: relative;
-      display: inline-block;
-      margin-top: 2em;
-      margin-right: 6em;
-      width: 60px;
-      height: 60px; }
-      body div#words div.retailer img {
-        height: 4em;
-        width: 9em; }
-  body div#bookcover img {
-    height: 38.8em;
-    width: 400px;
-    box-shadow: 10px 10px 5px grey;
-    margin-left: 3em;
-    margin-top: 1.2em; }
+      margin-right: 2.5em;
+      border-radius: 2%;
+      /*p#haroldE{
+      	float: right;
+      	margin-right: 4em;
+      }*/
+      			/*ul{
+      				margin-top: 4em;
+      				padding: 0px;
+      
+      				li{
+      					font-family: 'Open Sans';
+      					display: inline-block;
+      					margin-right: 2em;
+      						div.retailer{
+      							width: 15px;
+      							height: 15px;
+      							border-radius: 100%;
+      							border-radius: 1px solid black;
+      						}
+      				}
+      
+      			}*/ }
+      body div.wrapper div#words p#title {
+        text-align: center;
+        font-family: timesRegular;
+        font-size: 2.3em;
+        font-weight: 600;
+        color: #bb323a;
+        margin-top: 0;
+        margin-bottom: 0; }
+      body div.wrapper div#words p#description {
+        text-align: center;
+        color: #bb323a;
+        font-size: 1.5em;
+        margin-top: 0.6em;
+        margin-bottom: 0;
+        font-family: timesRegular; }
+      body div.wrapper div#words p.quote {
+        font-size: 13px;
+        font-family: 'Open Sans';
+        display: inline-block;
+        width: 45%;
+        color: #bb323a;
+        text-align: justify; }
+        body div.wrapper div#words p.quote span {
+          font-weight: bold;
+          color: #065183; }
+      body div.wrapper div#words p#tonyR {
+        float: right;
+        margin-right: 3em; }
+      body div.wrapper div#words h3.promise {
+        margin-top: 0;
+        color: #bb323a;
+        font-family: 'Open Sans'; }
+      body div.wrapper div#words h3#byAuthor {
+        border-bottom: 1px solid #065183;
+        padding-bottom: 1.3em;
+        margin-top: 1.5em;
+        margin-bottom: 0.3em;
+        font-family: timesRegular;
+        color: #065183;
+        text-align: center; }
+      body div.wrapper div#words h2 {
+        font-family: timesRegular; }
+      body div.wrapper div#words div.retailer {
+        position: absolute;
+        display: inline-block;
+        margin-top: 16em;
+        margin-left: -15em;
+        width: 60px;
+        height: 60px; }
+        body div.wrapper div#words div.retailer img {
+          height: 4em;
+          width: 9em; }
+      body div.wrapper div#words div.retailer:hover {
+        position: absolute;
+        display: inline-block;
+        margin-top: 16em;
+        margin-left: -15em;
+        width: 60px;
+        height: 60px; }
+        body div.wrapper div#words div.retailer:hover img {
+          height: 4em;
+          width: 9em;
+          text-decoration: underline; }
+      body div.wrapper div#words div.retailer2 {
+        position: absolute;
+        display: inline-block;
+        margin-top: 16.5em;
+        margin-left: -5em;
+        width: 60px;
+        height: 60px; }
+        body div.wrapper div#words div.retailer2 img {
+          height: 3em;
+          width: 12em; }
+      body div.wrapper div#words div.basket {
+        position: absolute; }
+        body div.wrapper div#words div.basket img {
+          border-right: 1px solid grey;
+          padding-right: 20px;
+          margin-top: 4em;
+          height: 50px;
+          width: 50px; }
+    body div.wrapper div#bookcover img {
+      height: 38.8em;
+      width: 400px;
+      box-shadow: 10px 10px 5px grey;
+      margin-left: 2.5em;
+      margin-top: 1.2em; }
 
 /*# sourceMappingURL=main.css.map */
