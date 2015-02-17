@@ -96,8 +96,8 @@ body {
         font-family: timesRegular; }
     body div.wrapper div#retailers {
       position: absolute;
-      margin-left: 30.5em;
-      margin-top: -17em; }
+      margin-left: 32.7em;
+      /*margin-top: -17em;*/ }
       body div.wrapper div#retailers div.retailer {
         /*margin-top: 17.3em;
         margin-left: -4em;
@@ -132,10 +132,38 @@ body {
       box-shadow: 8px 8px 30px black;
       margin-left: 3.2em;
       margin-top: 2.5em; }
-  @media screen and (max-width: 1351px) {
-    body div.retailer {
-      margin-top: 16.3em; }
-    body div.retailer2 {
-      margin-top: 16.8em; } }
+  @media screen and (max-width: 1280px) {
+    body div#retailers {
+      position: absolute;
+      margin-left: 30.5em;
+      margin-top: -17em; }
+      body div#retailers div.retailer {
+        /*margin-top: 17.3em;
+        margin-left: -4em;
+        width: 60px;
+        height: 60px;*/ }
+        body div#retailers div.retailer img {
+          margin-top: -4em;
+          margin-right: -26em;
+          float: right;
+          height: 4em;
+          width: 9em; }
+      body div#retailers div.retailer2 {
+        /*margin-top: 17.8em;
+        margin-left: 7em;
+        width: 60px;
+        height: 60px;*/ }
+        body div#retailers div.retailer2 img {
+          height: 3em;
+          width: 12em;
+          float: right;
+          margin-top: -3.9em;
+          margin-right: -14em; }
+      body div#retailers div.basket img {
+        float: left;
+        margin-top: -5.6em;
+        /*margin-right: 38.6em;*/
+        height: 100px;
+        width: 200px; } }
 
 /*# sourceMappingURL=main.css.map */
