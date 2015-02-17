@@ -136,7 +136,7 @@ body {
     body div#retailers {
       position: absolute;
       margin-left: 30.5em;
-      margin-top: -17em; }
+      /*margin-top: -17em;*/ }
       body div#retailers div.retailer {
         /*margin-top: 17.3em;
         margin-left: -4em;
