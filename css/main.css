@@ -1,9 +1,9 @@
 @font-face {
   font-family: timesRegular;
-  src: url(/fonts/TypographyTimesRegular.ttf); }
+  src: url(/holdingpage/fonts/TypographyTimesRegular.ttf); }
 @font-face {
   font-family: timesItalic;
-  src: url(/fonts/TypographyTimesItalic.ttf); }
+  src: url(/holdingpage/fonts/TypographyTimesItalic.ttf); }
 @font-face {
   font-family: timesBold;
   src: url(/fonts/TypographyTimesBold.ttf); }
@@ -44,12 +44,11 @@ body {
         margin-top: 0;
         margin-bottom: 0; }
         body div.wrapper div#words p#title span {
-          text-transform: uppercase;
-          color: #464952; }
+          text-transform: uppercase; }
       body div.wrapper div#words p#description {
         color: black;
         text-align: left;
-        font-size: 1.05em;
+        font-size: 1.2em;
         font-family: timesRegular;
         padding-bottom: 1.3em;
         margin-bottom: 0.5em;
