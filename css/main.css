@@ -46,6 +46,7 @@ body {
         body div.wrapper div#words p#title span {
           text-transform: uppercase; }
       body div.wrapper div#words p#description {
+        margin-top: 10px;
         color: black;
         text-align: left;
         font-size: 1.05em;
