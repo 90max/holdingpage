@@ -201,6 +201,8 @@ div#retailers{
 
 @media screen and (max-width: 1280px) {
 
+div.wrapper{
+
 div#retailers{
 	position: absolute;
 	margin-left: 30.5em;
@@ -212,6 +214,7 @@ div#retailers{
 			width: 60px;
 			height: 60px;*/
 				img{
+
 					margin-top: -4.5em;
 					margin-right: -26em;
 					float: right;
@@ -243,7 +246,7 @@ div#retailers{
 					width: 200px;
 				}
 	}
-
+}
 }
 
 }
