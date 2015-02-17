@@ -95,34 +95,36 @@ body {
         font-size: 1em; }
       body div.wrapper div#words h2 {
         font-family: timesRegular; }
-    body div.wrapper div.retailer {
-      /*margin-top: 17.3em;
-      margin-left: -4em;
-      width: 60px;
-      height: 60px;*/ }
-      body div.wrapper div.retailer img {
-        margin-top: -4em;
-        margin-right: 25em;
+    body div.wrapper div#retailers {
+      position: absolute; }
+      body div.wrapper div#retailers div.retailer {
+        /*margin-top: 17.3em;
+        margin-left: -4em;
+        width: 60px;
+        height: 60px;*/ }
+        body div.wrapper div#retailers div.retailer img {
+          margin-top: -4em;
+          margin-right: 25em;
+          float: right;
+          height: 4em;
+          width: 9em; }
+      body div.wrapper div#retailers div.retailer2 {
+        /*margin-top: 17.8em;
+        margin-left: 7em;
+        width: 60px;
+        height: 60px;*/ }
+        body div.wrapper div#retailers div.retailer2 img {
+          height: 3em;
+          width: 12em;
+          float: right;
+          margin-top: -3.5em;
+          margin-right: 10em; }
+      body div.wrapper div#retailers div.basket img {
         float: right;
-        height: 4em;
-        width: 9em; }
-    body div.wrapper div.retailer2 {
-      /*margin-top: 17.8em;
-      margin-left: 7em;
-      width: 60px;
-      height: 60px;*/ }
-      body div.wrapper div.retailer2 img {
-        height: 3em;
-        width: 12em;
-        float: right;
-        margin-top: -3.5em;
-        margin-right: 10em; }
-    body div.wrapper div.basket img {
-      float: right;
-      margin-top: -5.3em;
-      margin-right: 38.6em;
-      height: 100px;
-      width: 200px; }
+        margin-top: -5.3em;
+        margin-right: 38.6em;
+        height: 100px;
+        width: 200px; }
     body div.wrapper div#bookcover img {
       height: 37.9em;
       width: 33%;
