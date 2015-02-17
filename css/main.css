@@ -96,7 +96,9 @@ body {
       body div.wrapper div#words h2 {
         font-family: timesRegular; }
     body div.wrapper div#retailers {
-      position: absolute; }
+      position: absolute;
+      margin-left: 29.2em;
+      margin-top: -17em; }
       body div.wrapper div#retailers div.retailer {
         /*margin-top: 17.3em;
         margin-left: -4em;
