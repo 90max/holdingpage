@@ -143,7 +143,7 @@ body {
         width: 60px;
         height: 60px;*/ }
         body div#retailers div.retailer img {
-          margin-top: -4em;
+          margin-top: -4.5em;
           margin-right: -26em;
           float: right;
           height: 4em;
@@ -161,7 +161,7 @@ body {
           margin-right: -14em; }
       body div#retailers div.basket img {
         float: left;
-        margin-top: -5.6em;
+        margin-top: -5.9em;
         /*margin-right: 38.6em;*/
         height: 100px;
         width: 200px; } }
