@@ -4,7 +4,7 @@ $bookRed: #bb323a;
 
 @font-face {
   font-family: timesRegular;
-  src: url(/holdingpage//fonts/TypographyTimesRegular.ttf); }
+  src: url(/fonts/TypographyTimesRegular.ttf); }
 
 @font-face {
 	font-family: timesItalic;
@@ -60,24 +60,30 @@ div.wrapper{
 		border-radius: 2%;
 		box-shadow: 5px 5px 10px -3px black;
 			p#title{
-				color: #464952;
-				text-align: center;
+				
+				text-align: left;
 				font-family: timesRegular;
-				text-transform: uppercase;
-				font-size: 2.2em; 
+				font-size: 2em; 
 				font-weight: 600;
 				margin-top: 0;
 				margin-bottom: 0;
+					span{
+						text-transform: uppercase;
+						color: #464952;
+					}
 					
 			}
 			p#description{
 				color: black;
-				text-align: center;
+				text-align: left;
 				font-size: 1.05em;
 				font-family: timesRegular;
 				padding-bottom: 1.3em;
 				margin-bottom: 0.5em;
-				border-bottom: 1px solid $bookBlue; 
+				border-bottom: 1px solid $bookBlue;
+					span{
+						font-family: timesItalic;
+					} 
 			}
 			p.quote{
 				font-size: 13px;
@@ -129,76 +135,46 @@ div.wrapper{
 			h2{
 				font-family: timesRegular;
 			}
-			/*ul{
-				margin-top: 4em;
-				padding: 0px;
-
-				li{
-					font-family: 'Open Sans';
-					display: inline-block;
-					margin-right: 2em;
-						div.retailer{
-							width: 15px;
-							height: 15px;
-							border-radius: 100%;
-							border-radius: 1px solid black;
-						}
-				}
-
-			}*/
-			div.retailer{
-							position: absolute;
-							display: inline-block;
-							margin-top: 17.3em;
-							margin-left: -4em;
-							width: 60px;
-							height: 60px;
-								img{
-									height: 4em;
-									width: 9em;
-								}
-						}
-
-			div.retailer:hover{
-							position: absolute;
-							display: inline-block;
-							margin-top: 16em;
-							margin-left: -15em;
-							width: 60px;
-							height: 60px;
-								img{
-									height: 4em;
-									width: 9em;
-									text-decoration: underline;
-								}
-						}
-
-			div.retailer2{
-							position: absolute;
-							display: inline-block;
-							margin-top: 17.8em;
-							margin-left: 7em;
-							width: 60px;
-							height: 60px;
-								img{
-									height: 3em;
-									width: 12em;
-								}
-						}
-
-			div.basket{
-				position: absolute;
-					img{
-						padding-right: 13px;
-						margin-top: 2em;
-						margin-left: -3.6em;
-						height: 100px;
-						width: 200px;
-					}
-			}
-		
-
 			
+			
+	}
+
+	div.retailer{
+			/*margin-top: 17.3em;
+			margin-left: -4em;
+			width: 60px;
+			height: 60px;*/
+				img{
+					margin-top: -4em;
+					margin-right: 25em;
+					float: right;
+					height: 4em;
+					width: 9em;
+				}
+	}
+
+	div.retailer2{
+			/*margin-top: 17.8em;
+			margin-left: 7em;
+			width: 60px;
+			height: 60px;*/
+				img{
+					height: 3em;
+					width: 12em;
+					float: right;
+					margin-top: -3.5em;
+					margin-right: 10em;
+					}
+	}
+
+	div.basket{
+				img{
+					float: right;
+					margin-top: -5.3em;
+					margin-right: 38.6em;
+					height: 100px;
+					width: 200px;
+				}
 	}
 
 
@@ -217,11 +193,14 @@ div.wrapper{
 
 }
 
-@media screen and (max-width: 1350px) {
+@media screen and (max-width: 1351px) {
 
-div.wrapper{
-	margin-left: 0;
-	margin-right: 0;
+div.retailer{
+	margin-top: 16.3em;
+}
+
+div.retailer2{
+	margin-top: 16.8em;
 }
 
 }

@@ -1,6 +1,6 @@
 @font-face {
   font-family: timesRegular;
-  src: url(/holdingpage//fonts/TypographyTimesRegular.ttf); }
+  src: url(/fonts/TypographyTimesRegular.ttf); }
 @font-face {
   font-family: timesItalic;
   src: url(/fonts/TypographyTimesItalic.ttf); }
@@ -35,41 +35,27 @@ body {
       margin-top: 2.43em;
       margin-right: 3.2em;
       border-radius: 2%;
-      box-shadow: 5px 5px 10px -3px black;
-      			/*ul{
-      				margin-top: 4em;
-      				padding: 0px;
-      
-      				li{
-      					font-family: 'Open Sans';
-      					display: inline-block;
-      					margin-right: 2em;
-      						div.retailer{
-      							width: 15px;
-      							height: 15px;
-      							border-radius: 100%;
-      							border-radius: 1px solid black;
-      						}
-      				}
-      
-      			}*/ }
+      box-shadow: 5px 5px 10px -3px black; }
       body div.wrapper div#words p#title {
-        color: #464952;
-        text-align: center;
+        text-align: left;
         font-family: timesRegular;
-        text-transform: uppercase;
-        font-size: 2.2em;
+        font-size: 2em;
         font-weight: 600;
         margin-top: 0;
         margin-bottom: 0; }
+        body div.wrapper div#words p#title span {
+          text-transform: uppercase;
+          color: #464952; }
       body div.wrapper div#words p#description {
         color: black;
-        text-align: center;
+        text-align: left;
         font-size: 1.05em;
         font-family: timesRegular;
         padding-bottom: 1.3em;
         margin-bottom: 0.5em;
         border-bottom: 1px solid #065183; }
+        body div.wrapper div#words p#description span {
+          font-family: timesItalic; }
       body div.wrapper div#words p.quote {
         font-size: 13px;
         font-family: 'Open Sans';
@@ -109,54 +95,44 @@ body {
         font-size: 1em; }
       body div.wrapper div#words h2 {
         font-family: timesRegular; }
-      body div.wrapper div#words div.retailer {
-        position: absolute;
-        display: inline-block;
-        margin-top: 17.3em;
-        margin-left: -4em;
-        width: 60px;
-        height: 60px; }
-        body div.wrapper div#words div.retailer img {
-          height: 4em;
-          width: 9em; }
-      body div.wrapper div#words div.retailer:hover {
-        position: absolute;
-        display: inline-block;
-        margin-top: 16em;
-        margin-left: -15em;
-        width: 60px;
-        height: 60px; }
-        body div.wrapper div#words div.retailer:hover img {
-          height: 4em;
-          width: 9em;
-          text-decoration: underline; }
-      body div.wrapper div#words div.retailer2 {
-        position: absolute;
-        display: inline-block;
-        margin-top: 17.8em;
-        margin-left: 7em;
-        width: 60px;
-        height: 60px; }
-        body div.wrapper div#words div.retailer2 img {
-          height: 3em;
-          width: 12em; }
-      body div.wrapper div#words div.basket {
-        position: absolute; }
-        body div.wrapper div#words div.basket img {
-          padding-right: 13px;
-          margin-top: 2em;
-          margin-left: -3.6em;
-          height: 100px;
-          width: 200px; }
+    body div.wrapper div.retailer {
+      /*margin-top: 17.3em;
+      margin-left: -4em;
+      width: 60px;
+      height: 60px;*/ }
+      body div.wrapper div.retailer img {
+        margin-top: -4em;
+        margin-right: 25em;
+        float: right;
+        height: 4em;
+        width: 9em; }
+    body div.wrapper div.retailer2 {
+      /*margin-top: 17.8em;
+      margin-left: 7em;
+      width: 60px;
+      height: 60px;*/ }
+      body div.wrapper div.retailer2 img {
+        height: 3em;
+        width: 12em;
+        float: right;
+        margin-top: -3.5em;
+        margin-right: 10em; }
+    body div.wrapper div.basket img {
+      float: right;
+      margin-top: -5.3em;
+      margin-right: 38.6em;
+      height: 100px;
+      width: 200px; }
     body div.wrapper div#bookcover img {
       height: 37.9em;
       width: 33%;
       box-shadow: 8px 8px 30px black;
       margin-left: 3.2em;
       margin-top: 2.5em; }
-  @media screen and (max-width: 1350px) {
-    body div.wrapper {
-      margin-left: 0;
-      margin-right: 0; } }
+  @media screen and (max-width: 1351px) {
+    body div.retailer {
+      margin-top: 16.3em; }
+    body div.retailer2 {
+      margin-top: 16.8em; } }
 
 /*# sourceMappingURL=main.css.map */
