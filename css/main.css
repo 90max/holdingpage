@@ -106,7 +106,7 @@ body {
         height: 60px;*/ }
         body div.wrapper div#retailers div.retailer img {
           margin-top: -4em;
-          margin-right: 25em;
+          margin-right: -26em;
           float: right;
           height: 4em;
           width: 9em; }
@@ -120,11 +120,11 @@ body {
           width: 12em;
           float: right;
           margin-top: -3.9em;
-          margin-right: 10em; }
+          margin-right: -14em; }
       body div.wrapper div#retailers div.basket img {
-        float: right;
+        float: left;
         margin-top: -5.6em;
-        margin-right: 38.6em;
+        /*margin-right: 38.6em;*/
         height: 100px;
         width: 200px; }
     body div.wrapper div#bookcover img {
