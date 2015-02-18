@@ -136,7 +136,7 @@ body {
   @media screen and (max-width: 1280px) {
     body div.wrapper div#retailers {
       position: absolute;
-      margin-left: 38.5%;
+      margin-left: 39%;
       /*margin-left: 30.5em;
       margin-top: -17em;*/ }
       body div.wrapper div#retailers div.retailer {
