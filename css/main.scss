@@ -62,7 +62,6 @@ div.wrapper{
 			p#title{
 				
 				text-align: left;
-				font-family: timesRegular;
 				font-size: 2em; 
 				font-weight: 600;
 				margin-top: 0;
@@ -77,12 +76,11 @@ div.wrapper{
 				color: black;
 				text-align: left;
 				font-size: 1.05em;
-				font-family: timesRegular;
 				padding-bottom: 1.3em;
 				margin-bottom: 0.5em;
 				border-bottom: 1px solid $bookBlue;
 					span{
-						font-family: timesItalic;
+						font-style: italic;
 					} 
 			}
 			p.quote{
@@ -117,7 +115,6 @@ div.wrapper{
 				margin-top: 0;
 				text-align: justify;
 				font-size: 1.3em;
-				font-family: timesRegular;
 				margin-bottom: 0.5em;
 				color: $bookBlue;
 			}
@@ -127,7 +124,6 @@ div.wrapper{
 
 				margin-top: 1.5em;
 				margin-bottom: 0.3em;
-				font-family: timesRegular;
 				color: $bookRed;
 				font-size: 1em;
 
