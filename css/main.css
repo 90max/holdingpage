@@ -95,7 +95,7 @@ body {
       body div.wrapper div#words h2 {
         font-family: timesRegular; }
     body div.wrapper div#retailers {
-      position: absolute;
+      /*position: absolute;*/
       margin-left: 38.6%;
       /*margin-top: -17em;*/ }
       body div.wrapper div#retailers div.retailer {
@@ -105,8 +105,9 @@ body {
         height: 60px;*/ }
         body div.wrapper div#retailers div.retailer img {
           margin-top: -4.5em;
-          margin-right: -26em;
-          float: right;
+          /*margin-right: -26em;*/
+          margin-right: 17em;
+          /*float: right;*/
           height: 4em;
           width: 9em; }
       body div.wrapper div#retailers div.retailer2 {
@@ -118,8 +119,9 @@ body {
           height: 3em;
           width: 12em;
           float: right;
-          margin-top: -3.9em;
-          margin-right: -14em; }
+          margin-top: -3.7em;
+          margin-right: 9em;
+          /*margin-right: -14em*/ }
       body div.wrapper div#retailers div.basket img {
         float: left;
         margin-top: -5.6em;
