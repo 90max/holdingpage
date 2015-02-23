@@ -27,7 +27,6 @@ body{
 	
 	background-color: #cfe2dc;
 	width: 100%;
-	/*max-width: 1280px;*/
 	height: 100vh;
 	margin: 0 auto;
 
@@ -40,14 +39,6 @@ div.wrapper{
 	width: 100%;
 	background-color: $bookRed;
 	box-shadow: inset 0px -8px 16px -10px black;
-
-	/*max-width: 1280px;
-	height: 100vh;
-	margin: 0 auto;*/
-
-	/*background-color: $bookRed;*/
-	/*margin-left: 20px;
-	margin-right: 20px;*/
 	
 		
 	div#words{
@@ -57,7 +48,6 @@ div.wrapper{
 		width: 51%;
 		margin-top: 3%;
 		margin-right: 4.2%;
-		/*margin-right: 3.2em;*/
 		border-radius: 2%;
 		box-shadow: 5px 5px 10px -3px black;
 			p#title{
@@ -106,10 +96,8 @@ div.wrapper{
 				text-align: justify;
 				position: absolute;
 				margin-top: 12.3%;
-				/*margin-top: 13.5em;*/
 				width: 22%;
 				margin-left: 2%;
-				/*margin-left: 2.1em;*/
 			}
 			p#haroldE{
 				margin-left: 1em;
@@ -140,15 +128,11 @@ div.wrapper{
 
 div.retailers{
 	
-	/*margin-left: 38.7%;
-	margin-top: -6%;*/
 	margin-top: -2.5em;
 	display: inline-block;
 	
 	div#retailer{
 				img{
-					/*margin-left: 2em;
-					margin-bottom: 1em;*/
 					height: 4em;
 					width: 9em;
 					margin-bottom: 1em;
@@ -159,8 +143,6 @@ div.retailers{
 
 	div#retailer2{
 				img{
-					/*margin-left: 3em;
-					margin-bottom: 1.45em;*/
 					height: 3em;
 					width: 12em;
 					margin-bottom: 1.4em;
@@ -171,7 +153,7 @@ div.retailers{
 				img{
 					height: 6.5em;
 					width: 13em;
-					margin-left: 32.7em;
+					margin-left: 33em;
 				}
 	}
 
@@ -194,53 +176,37 @@ div.retailers{
 
 @media screen and (max-width: 1280px) {
 
-div.wrapper{
-	width: 1280px;
-	div#retailers{
-		position: absolute;
-		margin-left: 39%;
-		/*margin-left: 30.5em;
-		margin-top: -17em;*/
-
-		div.retailer{
-				/*margin-top: 17.3em;
-				margin-left: -4em;
-				width: 60px;
-				height: 60px;*/
-					img{
-
-						margin-top: -4.5em;
-						margin-right: -26em;
-						float: right;
-						height: 4em;
-						width: 9em;
-					}
-		}
-
-		div.retailer2{
-				/*margin-top: 17.8em;
-				margin-left: 7em;
-				width: 60px;
-				height: 60px;*/
-					img{
-						height: 3em;
-						width: 12em;
-						float: right;
-						margin-top: -3.9em;
-						margin-right: -14em;
-						}
-		}
-
-		div.basket{
-					img{
-						float: left;
-						margin-top: -5.9em;
-						/*margin-right: 38.6em;*/
-						height: 100px;
-						width: 200px;
-					}
-		}
+	div.retailers{
+	
+	margin-top: -2.5em;
+	display: inline-block;
+	
+	div#retailer{
+				img{
+					height: 4em;
+					width: 9em;
+					margin-bottom: 1em;
+					margin-left: 2em;
+					margin-right: 3em;
+				}	
 	}
+
+	div#retailer2{
+				img{
+					height: 3em;
+					width: 12em;
+					margin-bottom: 1.4em;
+					}
+	}
+
+	div#basket{
+				img{
+					height: 6.5em;
+					width: 13em;
+					margin-left: 30.5em;
+				}
+	}
+
 }
 
 }
