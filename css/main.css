@@ -95,29 +95,22 @@ body {
       body div.wrapper div#words h2 {
         font-family: timesRegular; }
     body div.wrapper div.retailers {
-      display: inline-block;
-      margin-left: 38.7%;
-      margin-top: -6%; }
-      body div.wrapper div.retailers div#retailer a img {
-        /*margin-top: -4.5em;
-        margin-left: 16.5em;*/
-        margin-left: 2em;
-        margin-bottom: 1em;
+      /*margin-left: 38.7%;
+      margin-top: -6%;*/
+      display: inline-block; }
+      body div.wrapper div.retailers div#retailer img {
+        /*margin-left: 2em;
+        margin-bottom: 1em;*/
         height: 4em;
         width: 9em; }
       body div.wrapper div.retailers div#retailer2 img {
-        margin-left: 3em;
-        margin-bottom: 1.45em;
+        /*margin-left: 3em;
+        margin-bottom: 1.45em;*/
         height: 3em;
-        width: 12em;
-        /*float: right;
-        margin-top: -3.7em;
-        margin-right: 9em;*/ }
+        width: 12em; }
       body div.wrapper div.retailers div#basket img {
-        /*float: left;
-        margin-top: -5.6em;*/
-        height: 100px;
-        width: 200px; }
+        height: 6.5em;
+        width: 13em; }
     body div.wrapper div#bookcover img {
       height: 37.9em;
       box-shadow: 8px 8px 30px black;
