@@ -175,9 +175,11 @@ div.retailers{
 }
 
 @media screen and (max-width: 1280px) {
+div.wrapper{
+	width: 1280px;
+	height: 29%;
 
 	div.retailers{
-	
 	margin-top: -2.5em;
 	display: inline-block;
 	
@@ -211,5 +213,5 @@ div.retailers{
 
 }
 	
-
+}
 }

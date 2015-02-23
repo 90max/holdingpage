@@ -107,22 +107,25 @@ body {
       margin-left: 4.2%;
       margin-top: 3%; }
   @media screen and (max-width: 1280px) {
-    body div.retailers {
-      margin-top: -2.5em;
-      display: inline-block; }
-      body div.retailers div#retailer img {
-        height: 4em;
-        width: 9em;
-        margin-bottom: 1em;
-        margin-left: 2em;
-        margin-right: 3em; }
-      body div.retailers div#retailer2 img {
-        height: 3em;
-        width: 12em;
-        margin-bottom: 1.4em; }
-      body div.retailers div#basket img {
-        height: 6.5em;
-        width: 13em;
-        margin-left: 30.5em; } }
+    body div.wrapper {
+      width: 1280px;
+      height: 29%; }
+      body div.wrapper div.retailers {
+        margin-top: -2.5em;
+        display: inline-block; }
+        body div.wrapper div.retailers div#retailer img {
+          height: 4em;
+          width: 9em;
+          margin-bottom: 1em;
+          margin-left: 2em;
+          margin-right: 3em; }
+        body div.wrapper div.retailers div#retailer2 img {
+          height: 3em;
+          width: 12em;
+          margin-bottom: 1.4em; }
+        body div.wrapper div.retailers div#basket img {
+          height: 6.5em;
+          width: 13em;
+          margin-left: 30.5em; } }
 
 /*# sourceMappingURL=main.css.map */
