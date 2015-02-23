@@ -205,7 +205,7 @@ div#retailers{
 @media screen and (max-width: 1280px) {
 
 div.wrapper{
-
+	width: 1280px;
 	div#retailers{
 		position: absolute;
 		margin-left: 39%;
@@ -254,34 +254,6 @@ div.wrapper{
 }
 
 }
-
-	@media screen and (max-width:640px){
-		div#words{
-			display: none;
-
-		}
-		div#retailers{
-			position: relative;
-			margin: 0;
-				div.retailer{
-					img{
-						margin: 0;
-						float: none;
-					}
-				}
-				div.retailer2{
-					img{
-						margin: 0;
-						float: none;
-					}			
-				}
-				div.basket{
-					img{
-						float: none;
-						margin: 0;
-					}
-				}
-		}
-	}	
+	
 
 }
