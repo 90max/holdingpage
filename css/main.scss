@@ -214,4 +214,20 @@ div.wrapper{
 }
 	
 }
+
+@media screen and (max-width: 640px) {
+	div.wrapper{
+		width: 100%;
+			div#words{
+				display: none;
+			}
+			div#bookcover{
+				img{
+					box-shadow: none;
+				}
+			}
+			
+	}
+}
+
 }
