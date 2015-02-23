@@ -133,7 +133,10 @@ body {
       body div.wrapper div#words {
         display: none; }
       body div.wrapper div#bookcover img {
-        box-shadow: none; }
+        box-shadow: none;
+        margin-left: 17%;
+        margin-right: 17%;
+        margin-top: 20%; }
       body div.wrapper div.retailers {
         margin-top: 0; }
         body div.wrapper div.retailers div#basket img {
