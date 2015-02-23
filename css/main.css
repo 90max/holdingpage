@@ -137,7 +137,7 @@ body {
       margin-top: 3%; }
   @media screen and (max-width: 1280px) {
     body div.wrapper div#retailers {
-      position: absolute;
+      /*position: absolute;*/
       margin-left: 39%;
       /*margin-left: 30.5em;
       margin-top: -17em;*/ }
@@ -169,5 +169,20 @@ body {
         /*margin-right: 38.6em;*/
         height: 100px;
         width: 200px; } }
+  @media screen and (max-width: 640px) {
+    body div#words {
+      display: none; }
+    body div#retailers {
+      position: relative;
+      margin: 0; }
+      body div#retailers div.retailer img {
+        margin: 0;
+        float: none; }
+      body div#retailers div.retailer2 img {
+        margin: 0;
+        float: none; }
+      body div#retailers div.basket img {
+        float: none;
+        margin: 0; } }
 
 /*# sourceMappingURL=main.css.map */
