@@ -127,7 +127,7 @@ body {
           height: 6.5em;
           width: 13em;
           margin-left: 30.5em; } }
-  @media screen and (max-width: 420px) {
+  @media screen and (max-width: 980px) {
     body div.wrapper {
       width: 100%; }
       body div.wrapper div#words {
