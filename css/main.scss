@@ -179,11 +179,17 @@ div.retailers{
 
 }
 
-@media screen and (max-width: 1352px) {
-	body div.wrapper div.retailers div#basket img {
-height: 6.5em;
-width: 13em;
-margin-left: 33em !important;
+@media screen and (max-width: 1450px) {
+div.wrapper{
+	div.retailers{
+		div#basket{
+			img{
+				height: 6.5em;
+				width: 13em;
+				margin-left: 33em;
+			}
+		}
+	}
 }	
 }	
 
