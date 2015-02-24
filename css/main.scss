@@ -35,7 +35,7 @@ body{
       
 div.wrapper{
 	
-	height: 29%;
+	height: 12.5em;
 	width: 100%;
 	background-color: $bookRed;
 	box-shadow: inset 0px -8px 16px -10px black;
@@ -177,7 +177,7 @@ div.retailers{
 @media screen and (max-width: 1280px) {
 div.wrapper{
 	width: 1280px;
-	/*height: 29%;*/
+	height: 12.5em;
 
 	div.retailers{
 	margin-top: -2.5em;
