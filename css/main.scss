@@ -180,16 +180,11 @@ div.retailers{
 }
 
 @media screen and (max-width: 1352px) {
-		
-	div.wrapper{
-		div.retailers{
-			div#basket{
-				img{
-					margin-left: 33em;
-				}
-			}
-		}	
-	}	
+	body div.wrapper div.retailers div#basket img {
+height: 6.5em;
+width: 13em;
+margin-left: 33em !important;
+}	
 }	
 
 @media screen and (max-width: 1280px) {
