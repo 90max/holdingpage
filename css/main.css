@@ -14,7 +14,48 @@ body {
   background-color: #cfe2dc;
   width: 100%;
   height: 100vh;
-  margin: 0 auto; }
+  margin: 0 auto;
+  /*@media screen and (max-width: 980px) {
+  	div.wrapper{
+  		width: 100%;
+  			div#words{
+  				display: none;
+  			}
+  			div#bookcover{
+  				img{
+  					box-shadow: none;
+  					margin-left: 17%;
+  					margin-right: 17%;
+  					margin-top: 20%;
+  				}
+  			}
+  			div.retailers{
+  				margin-top: 0;
+  					div#basket{
+  						img{
+  							height: 4em;
+  							width: 7em;
+  							margin-left: 0;
+  						}
+  					}
+  					div#retailer{
+  						img{
+  							height: 4em;
+  							width: 6em;
+  							margin: 0;
+  						}
+  					}
+  					div#retailer2{
+  						img{
+  							height: 2.5em;
+  							width: 7em;
+  							margin: 0;
+  						}
+  					}
+  			}
+  
+  	}
+  }*/ }
   body div.wrapper {
     height: 29%;
     width: 100%;
@@ -108,8 +149,8 @@ body {
       margin-top: 3%; }
   @media screen and (max-width: 1280px) {
     body div.wrapper {
-      /*width: 1280px;
-      height: 29%;*/ }
+      width: 1280px;
+      /*height: 29%;*/ }
       body div.wrapper div.retailers {
         margin-top: -2.5em;
         display: inline-block; }
@@ -127,29 +168,5 @@ body {
           height: 6.5em;
           width: 13em;
           margin-left: 30.5em; } }
-  @media screen and (max-width: 980px) {
-    body div.wrapper {
-      width: 100%; }
-      body div.wrapper div#words {
-        display: none; }
-      body div.wrapper div#bookcover img {
-        box-shadow: none;
-        margin-left: 17%;
-        margin-right: 17%;
-        margin-top: 20%; }
-      body div.wrapper div.retailers {
-        margin-top: 0; }
-        body div.wrapper div.retailers div#basket img {
-          height: 4em;
-          width: 7em;
-          margin-left: 0; }
-        body div.wrapper div.retailers div#retailer img {
-          height: 4em;
-          width: 6em;
-          margin: 0; }
-        body div.wrapper div.retailers div#retailer2 img {
-          height: 2.5em;
-          width: 7em;
-          margin: 0; } }
 
 /*# sourceMappingURL=main.css.map */
