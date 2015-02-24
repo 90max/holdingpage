@@ -221,11 +221,16 @@ div.wrapper{
 }
 
 @media screen and (max-width: 2000px) {
-	div#basket{
-		img{
-			margin-left: 48.5em;
-		}
-	}
-}
+		
+	div.wrapper{
+		div.retailers{
+			div#basket{
+				img{
+					margin-left: 48.5em;
+				}
+			}
+		}	
+	}	
+}	
 
 }
