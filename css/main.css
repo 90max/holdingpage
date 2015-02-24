@@ -100,12 +100,15 @@ body {
       body div.wrapper div.retailers div#basket img {
         height: 6.5em;
         width: 13em;
-        margin-left: 33em; }
+        margin-left: 48.5em; }
     body div.wrapper div#bookcover img {
       height: 37.9em;
       box-shadow: 8px 8px 30px black;
       margin-left: 4.2%;
       margin-top: 3%; }
+  @media screen and (max-width: 1352px) {
+    body div.wrapper div.retailers div#basket img {
+      margin-left: 33em; } }
   @media screen and (max-width: 1280px) {
     body div.wrapper {
       width: 1280px;
@@ -127,8 +130,5 @@ body {
           height: 6.5em;
           width: 13em;
           margin-left: 30.5em; } }
-  @media screen and (max-width: 2000px) {
-    body div.wrapper div.retailers div#basket img {
-      margin-left: 48.5em; } }
 
 /*# sourceMappingURL=main.css.map */
